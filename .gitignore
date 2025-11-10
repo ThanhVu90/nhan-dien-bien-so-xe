@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results and outputs
+results/
+*.log
+
+# Model files (too large for git)
+weights/*.pt
+ocr_models/*.h5
+
+# Data files
+data/images/*
+data/video/*
+data/sample_plates/*
+!data/images/.gitkeep
+!data/video/.gitkeep
+!data/sample_plates/.gitkeep
+
+# OCR training data
+data/ocr_data/train/
+data/ocr_data/test/
+
+# PaddleOCR cache
+.paddlex/

@@ -1,0 +1,17 @@
+# Core dependencies for License Plate Recognition System
+# Version: 3.0 MVC + GUI
+
+# YOLO Detection
+ultralytics>=8.0.0
+
+# Image Processing
+opencv-python>=4.6.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# OCR
+paddlepaddle>=2.6.0
+paddleocr>=2.7.0
+
+# Visualization (optional)
+matplotlib>=3.7.0
